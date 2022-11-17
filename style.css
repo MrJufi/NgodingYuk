@@ -1,0 +1,22 @@
+/*Cara agar setelah fixed top dari navbar nya nggak nimpa home content di bawah navbar nya*/
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.logo{
+    width: 40%;
+}
+
+.provide img{
+    height: 100px;
+}
+
+@media(min-width: 768px){
+    .news-input{
+        /*Nggak tahu kenapa width nya nggak bisa diatur*/
+       margin-left: 5%;
+    }
+}
+
